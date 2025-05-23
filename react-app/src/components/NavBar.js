@@ -6,10 +6,10 @@ const NavBar = (props) => (
     <p className="menu-label">Menu</p>
     <ul className="menu-list">
       <NavLink to="/products" activeClassName="active-link">
-        제품목록
+        제품목록(PRODUCtS)
       </NavLink>
       <NavLink to="/about" activeClassName="active-link">
-        개요2
+        개요(OVERVIEW)
       </NavLink>
     </ul>
     {props.children}
